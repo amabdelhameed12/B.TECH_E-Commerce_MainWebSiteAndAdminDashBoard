@@ -1,0 +1,45 @@
+<div class="d-flex justify-content-end">
+    <a routerLink="/AddnewProuduct" routerLinkActive="router-link-active" class="btn text-white fw-bold mt-5 me-5" style="background-color: rgb(12, 11, 12); ">Add New Product</a>
+</div>
+
+<div class="container-fluid card col-11 m-5 rounded shadow-lg mt-2">
+    <table class="table m-2">
+        <thead class="bg-dark text-light">
+            <tr>
+                <th scope="col">Name</th>
+                <th scope="col">Image</th>
+                <th scope="col">Quantity</th>
+                <th scope="col">Price</th>
+                <th scope="col">Discount</th>
+                <th scope="col">Category</th>
+                <th scope="col">Details</th>
+                <th scope="col">Edit</th>
+                <th scope="col">Delete</th>
+            </tr>
+        </thead>
+        <tbody>
+            <ng-container *ngFor="let product of products">
+                <tr [hidden]="product.quantity == 0">
+                    <td>{{ product.name }}</td>
+                    <td style="text-align: center;">
+                        <img [src]="product.imageUrl" style="height: 50px; width: 50px; vertical-align: middle;">
+                        
+                    </td>
+                    <td>{{ product.quantity }}</td>
+                    <td>{{ product.price }}</td>
+                    <td [ngStyle]="{'color': (product.discount >= 0) ? 'green' : 'red'}">{{ product.discount }} %</td>
+                    <td>{{ getCategoryName(product.categoryId) }}</td>
+                    <td>
+                        <button type="submit" class="btn btn-success bg-black" (click)="prdDetails(product.id)">Details</button>
+                    </td>
+                    <td>
+                        <button type="submit" class="btn btn-success bg-black" (click)="editProduct(product.id)">Edit</button>
+                    </td>
+                    <td>
+                        <button type="submit" class="btn btn-success bg-black" (click)="deleteProduct(product.id)">Delete</button>
+                    </td>
+                </tr>
+            </ng-container>
+        </tbody>
+    </table>
+</div>

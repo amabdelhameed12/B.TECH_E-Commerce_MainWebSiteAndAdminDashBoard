@@ -1,0 +1,302 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - B.Tech</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    @*<link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />*@
+    <link rel="stylesheet" href="~/B.Tech.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title data-lng="title">B.TECH</title>
+    <link rel="icon" href="/Images/favicon.jpeg" type="image/x-icon">
+    <link rel="stylesheet" href="/css/LayCss.css">
+
+  
+</head>
+<body>
+    <div class="container-fluid" >
+        <div class="row fixed-top">
+            <div class=" outer-header " style="background-color: #0e001a;">
+                <div class="d-flex justify-content-between px-3">
+                    <div class="d-flex">
+                        <div class="inner-header px-3" >
+                            <select class="mt-3" style="background-color: #464545;color: white;font-size: 13px;">
+                                <option value="en" data-lng="english">English</option>
+                                <option value="ar" data-lng="arabic">Arabic</option>
+                            </select>
+                        </div>
+                        <p data-lng="delivery" class="pt-3" style="color: rgb(255, 255, 255);font-size: 13px;">My delivery area: Cairo</p>
+                    </div>
+                        <ul class="header-links d-flex justify-content-center pt-3" style="list-style: none;font-size: 13px;">
+                             
+                            <li class="call-link px-3">
+                                <span><i class="fa-solid fa-phone px-2" style="color: white;"></i></span>
+                                <a data-lng="call" href="tel:19966">
+                                Call 19966 </a>
+                            </li>
+                        </ul>
+                </div>
+            </div>
+            <nav class="row navbar navbar-expand-md navbar-light shadow bg-white rounded px-0" style="height: 14vh;">
+                <div class="container">
+                   <a href="/Home/Index"><img src="/Images/B.tech.png" class="img-fluid px-3 imgsite"></a> 
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="d-flex-md justify-content-center collapse navbar-collapse " id="navbarSupportedContent">
+                        <ul class="navbar-nav text-center">
+                            <li class="nav-item dropdown ">
+                                <a data-lng="categories" class="nav-link dropdown-toggle h6 pt-4" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: black;font-weight: bold;">
+                                    Categories
+                                </a>
+                                <ul class="dropdown-menu" style="width: 275px;left: -70px;border: #0e001a 2px solid;margin-top: -5px;padding: 10px;border-radius: 10px;" aria-labelledby="navbarDropdown">
+                                    <li style="text-align: start;"><a class="dropdown-item" href="@Url.Action("GetProdByCatId", "Category", new { id =1 })"><img src="/Images/Mobiles_and_tablets.webp" width="45px"><span class="px-3" data-lng="mobilesTablets">Mobiles</span></a></li>
+                                    <li style="text-align: start;"><a class="dropdown-item" href="@Url.Action("GetProdByCatId", "Category", new { id =2 })"><img src="/Images/TV_Entertainment.webp" width="45px"><span class="px-3" data-lng="tVs">TVs</span></a></li>
+                                    <li style="text-align: start;"><a class="dropdown-item" href="@Url.Action("GetProdByCatId", "Category", new { id =3 })"><img src="/Images/small_hope_appliances.webp" width="45px"><span class="px-3" data-lng="smallHome">Small Home Appliance</span></a></li>
+                                    <li style="text-align: start;"><a class="dropdown-item" href="@Url.Action("GetProdByCatId", "Category", new { id =4 })"><img src="/Images/Large_home_appliance.webp" width="45px"><span class="px-3" data-lng="largeHome">Large  Home Appliance</span></a></li>
+                                    <li style="text-align: start;"><a class="dropdown-item" href="@Url.Action("GetProdByCatId", "Category", new { id =5 })"><img src="/Images/Laptops_PCs.webp" width="45px"><span class="px-3" data-lng="laptopsPCs">Laptops</span></a></li>
+                                    <li style="text-align: start;"><a class="dropdown-item" href="@Url.Action("GetProdByCatId", "Category", new { id =6 })"><img src="/Images/Beauty_Fitness.webp" width="45px"><span class="px-3" data-lng="personalCare">Personal Care</span></a></li>
+                                    <li style="text-align: start;"><a class="dropdown-item" href="@Url.Action("GetProdByCatId", "Category", new { id =7 })"><img src="/Images/electronics.webp" width="45px"><span class="px-3" data-lng="electronics">Electronics</span></a></li>
+                                    <li style="text-align: start;"><a class="dropdown-item" href="@Url.Action("GetProdByCatId", "Category", new { id =8 })"><img src="/Images/gaming_1.webp" width="45px"><span class="px-3" data-lng="gaming">Gaming</span></a></li>
+                                    <li style="text-align: start;"><a class="dropdown-item" href="@Url.Action("GetProdByCatId", "Category", new { id =9 })"><img src="/Images/ezgif-1-3533adc29e.webp" width="45px"><span class="px-3" data-lng="sports">Sports</span></a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link px-2 h6 pt-4" href="@Url.Action("everydayDeals", "Category")" style="color: red;font-weight: bold;" data-lng="everydayDeals">Everyday Deals</a>
+                            </li>
+                 
+                          <li class="nav-item">
+                                <form class="form-inline pt-3" id="searchForm">
+                                    <div class="input-group px-3">
+                                        <input class="form-control" type="search" id="searchInput" placeholder="Search For Products or Brands"
+                                        aria-label="Search" style="width: 30vw;border-radius: 10px;height: 6vh;background-color: rgb(245, 245, 245);">
+                                        <button class="btn btn-primary rounded" id="searchButton" type="submit"> <i class="fas fa-search"></i></button>
+                                    </div>
+                                </form>
+                            </li>
+               
+                            <li class="nav-item h6 pt-4">
+                                <a href="@Url.Action("Index", "Cart")" class="d-flex justify-content-center" style="color: black;">
+                                    <span id="cart" style="background-color:black ;font-weight:bold; color:white"></span>
+                                    <span class="px-1" style="font-size: 22px;"><i class="fa-solid fa-cart-shopping"></i></span>
+                                    <p class="d-none d-lg-block pt-1" data-lng="cart">Cart</p>
+                                </a>
+                            </li>
+
+                             @if (User.Identity.IsAuthenticated)
+                            {
+                                <li class="nav-item px-3 h6 pt-4">
+                                    <a href="@Url.Action("Index", "Customer")" class="d-flex justify-content-center " style="color: black;">
+                                        <span class="px-1" style="font-size: 22px;"><i class="fa-solid fa-user"></i></span>
+                                        <p class=" ps-1 pt-1 d-none d-lg-block" data-lng="account"> </p>
+                                    </a>
+                                </li>
+
+                                <li class="nav-item px-3 h6 pt-4">
+                                    <a href="@Url.Action("SignOut", "Account")" class="d-flex justify-content-center " style="color: black;">
+                                        <span class="px-1" style="font-size: 22px;"></span>
+                                        <p class=" ps-1 pt-1 d-none d-lg-block" data-lng="SignOut"></p>
+                                    </a>
+                                </li>
+                   
+
+                            }
+
+                            else
+                            {
+                               <li class="nav-item px-3 h6 pt-4">
+                                    <a asp-controller="Account" asp-action="Login" class="d-flex justify-content-center " style="color: black;">
+                            <span class="px-1" style="font-size: 22px;"></span>
+                            <p class=" ps-1 pt-1 d-none d-lg-block" data-lng="Login"></p>
+                            </a>
+                            </li>
+
+                            }
+
+
+                         
+                            </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+    <div class="container " style="margin-top:150px">
+        <main role="main" class="pb-3">
+                <div id="searchResults" ></div>
+         
+            @RenderBody()
+        </main>
+    </div>
+
+        <footer class="row text-center text-muted pt-3" style="background-color: #0e001a;">
+            <section class="p-4 border-bottom">
+                <div class="ms-5 d-flex justify-content-start">
+                    <span><i class="fa-solid fa-phone px-2" style="color: white;"></i></span>
+                    <a href="tel:19966" data-lng="supp" style="font-weight: bold;">
+                        Call Support 19966
+                    </a>
+                </div>
+            </section>
+            <section>
+                <div class="container mt-5">
+                    <div class="row mt-3">
+                        <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-4" style="color: rgb(192, 192, 192);text-align: start;">
+                            <h5 data-lng="warranty" class=" fw-bold mb-4" style="color: rgb(255, 255, 255);font-size: 19px;">
+                                B.TECH Warranty
+                            </h5>
+                            <p>
+                                <a href="#!" class="text-reset text-end" data-lng="ultra">Ultra</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-reset" data-lng="ariston">Ariston</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-reset" data-lng="indesit">Indesit</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-reset" data-lng="babyliss">Babyliss</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-reset" data-lng="miele">Miele</a>
+                            </p>
+                        </div>
+
+                        <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-4 " style="color: rgb(192, 192, 192);text-align: start;">
+                            <h6 class=" fw-bold mb-4" style="color: rgb(255, 255, 255)" data-lng="about">
+                                About
+                            </h6>
+                            <p>
+                                <a href="#!" class="text-reset" data-lng="WorkWithUs">Work With Us</a>
+                            </p>
+                            <h6 data-lng="services" class=" fw-bold mb-4 mt-5" style="color: rgb(255, 255, 255)">
+                                B.TECH Services
+                            </h6>
+                            <p>
+                                <a href="#!" class="text-reset" data-lng="minicash">Minicash</a>
+                            </p>
+                        </div>
+
+                        <div class="col-md-2 col-lg-3 col-xl-3 mx-auto mb-4" style="color: rgb(192, 192, 192);text-align: start;">
+                            <h6 data-lng="Trending" class=" fw-bold mb-4" style="color: rgb(255, 255, 255)">
+                                Trending now
+                            </h6>
+                            <p>
+                                <a href="#!" class="text-reset" data-lng="everydayDeals">Everyday Deals</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-reset" data-lng="mobile">Mobile</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-reset" data-lng="braunOffers">Braun offers</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-reset" data-lng="tVs">TVs</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-reset" data-lng="accessories">Accessories</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-reset" data-lng="oppo">Oppo</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-reset" data-lng="samsung">Samsung</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-reset" data-lng="apple">Apple</a>
+                            </p>
+                        </div>
+
+                        <div class="col-md-3 col-lg-3 col-xl-3 mb-4" style="color: rgb(192, 192, 192);text-align: start;">
+                            <h6 class=" fw-bold mb-4" style="color: rgb(255, 255, 255)" data-lng="connect">Connect With Us</h6>
+                            <div class="d-flex justify-content-around">
+                                <a href="https://www.facebook.com/btech.eg/" target="_blank"><img src="/Images/facebook.png" alt="" width="24px"></a>
+                                <a href="https://www.instagram.com/mybtech/" target="_blank"><img src="/Images/insta.webp" alt="" width="24px"></a>
+                                <a href="https://www.youtube.com/channel/UCb38BG_mMf7BUumTVc10gAw/videos" target="_blank"><img src="/Images/you.webp" alt="" width="24px"></a>
+                            </div>
+                            <h6 class=" fw-bold mb-4 mt-5" style="color: rgb(255, 255, 255);text-align: start;" data-lng="Download">Download the B.TECH app</h6>
+                            <div class="d-flex flex-column">
+                                <a class="p-2" href="https://apps.apple.com/us/app/b-tech/id1258773067" target="_blank"><img src="/Images/ios download.webp" alt="" width="120px"></a>
+                                <a class="p-2" href="https://play.google.com/store/apps/details?id=com.btechapp" target="_blank"><img src="/Images/google play download.webp" alt="" width="120px"></a>
+                                <a class="p-2" href="https://appgallery.huawei.com/#/app/C101532561" target="_blank"><img src="/Images/huawei download.webp" alt="" width="120px"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <hr>
+
+            <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+                © B.TECH for Trade and Distribution, all rights reserved.
+                Terms & Conditions
+            </div>
+        </footer>
+
+     
+
+        <script>
+
+            document.getElementById("searchForm").addEventListener("submit", function (event) {
+            event.preventDefault();
+            console.log("true")
+            var searchTerm = $('#searchInput').val();
+            searchProducts(searchTerm);});
+            function searchProducts(searchTerm) {
+            $.ajax({url: '/Product/Search',type: 'Get',
+            data: { searchProduct: searchTerm },
+            success: function(response) {console.log(response);
+                        $('#searchResults').html(response);
+                        $('#res').html("");
+                    },
+            error: function() {
+                        $('#searchResults').html("");
+
+
+                        ;} });}
+
+        </script>
+
+        <script>
+   
+        //function addinfo(productId) {
+        //    var xhr = new XMLHttpRequest();
+        //    xhr.open("POST", "/Cart/AddToCart", true);
+        //    xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+        //    xhr.onreadystatechange = function () {
+        //        if (xhr.readyState === 4 && xhr.status === 200) {
+        //            alert("Product added to cart");
+        //        }
+        //    };
+        //    xhr.send("productId=" + productId);
+        //}
+
+            var cart = [];
+            function addinfo(id) {
+                cart.push(id);
+                console.log(cart)
+                var da = JSON.stringify({ productIds: cart })
+                console.log(da)
+                //localStorage.setItem('cart', da)
+                $.ajax({
+                    type: "POST", url: "/Cart/AddToCart",
+                    data: da,
+                    contentType: "application / json; charset = utf - 8",
+                    success: function (data) { console.log(data); },
+                    error: function (error) { console.log(error); }
+                });
+            }
+
+
+
+
+
+        </script>
+
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/LayJs.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

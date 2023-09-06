@@ -1,0 +1,45 @@
+﻿@model List<Order>
+
+
+
+<h2>Your Order</h2>
+
+@if (Model.Count == 0)
+{
+    <p>You haven't made any orders.</p>
+}
+else
+{
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Order Number</th>
+            <th>Order Date</th>
+            <th>Order Total</th>
+            <th>Order Status</th>
+            <th>View Products</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var order in Model)
+        {
+            <tr>
+                <td>@order.OrderNumber</td>
+                <td>@order.OrderDate</td>
+                <td>@order.Total</td>
+                <td>@order.Status</td>
+                <td>
+                        <a href="@Url.Action("ProductsForOrder", "Customer", new { orderNumber = order.OrderNumber })" class="btn btn-outline-secondary btn-lg" style="margin: 5px;">View Products</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+
+
+
+}
+

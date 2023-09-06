@@ -1,0 +1,46 @@
+<div class="d-flex justify-content-start ">
+    <a routerLink="/Products" routerLinkActive="router-link-active" class="btn text-white fw-bold mt-2 ms-5" style="background-color: rgb(12, 11, 12); "><i class="fa-solid fa-arrow-left"></i></a>
+</div>
+
+
+<div class="container-fluid card  col-8 mt-2 mb-5 rounded shadow-lg">
+
+
+    <form [formGroup]="productForm" (ngSubmit)="onSubmit()">
+        <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" formControlName="name" class="form-control">
+        </div>
+
+        <div class="form-group">
+            <label for="description">Description:</label>
+            <input type="text" formControlName="description" class="form-control">
+        </div>
+
+        <div class="form-group">
+            <label for="price">Price:</label>
+            <input type="number" formControlName="price" class="form-control">
+        </div>
+
+        <div class="form-group">
+            <label for="discount">Discount:</label>
+            <input type="number" formControlName="discount" class="form-control">
+        </div>
+        <div class="form-group">
+            <label for="quantity">Quantity:</label>
+            <input type="number" formControlName="quantity" class="form-control">
+        </div>
+
+        <div class="mb-3">
+            <label for="imageUrl" class="form-label">Choose Image</label>
+            <input class="form-control" type="file" id="imageUrl" (change)="onFileSelected($event)" required>
+        </div>
+
+            
+        <div class="form-group">
+            <label for="categoryId">Category:</label>
+            <select formControlName="categoryId" class="form-control">
+              <option *ngFor="let category of categories" [value]="category.id">{{ category.name }}</option>
+            </select>
+        </div>
+        <button type="submit" id="l" class="btn btn-success bg-black mt-2" [disabled]="!productForm.valid">Add</button>

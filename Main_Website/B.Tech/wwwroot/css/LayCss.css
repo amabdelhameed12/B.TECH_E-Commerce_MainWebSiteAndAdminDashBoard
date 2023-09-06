@@ -1,0 +1,149 @@
+body{
+    height: fit-content;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    color: white;
+}
+
+.main {
+    width: 50%;
+    margin: 50px auto;
+}
+#Card {
+    border-radius: 50px;
+    box-shadow: 0.5px 0.5px 0.5px #888888;
+}
+#Card:hover {
+    transform: scale(1.1);
+ 
+    box-shadow: 2px 2px 5px #888888;
+ 
+}
+
+.price {
+    font-size: 18px;
+}
+
+    .price del {
+        color: #999;
+        text-decoration: line-through;
+    }
+
+        /* .slideshow-container {
+            max-width: 85vw;
+            position: relative;
+            margin: auto;
+            display: flex;
+            justify-content: center;
+        } */
+
+
+        /* .mySlides {
+            display: none;
+            width: fit-content;
+            height: fit-content;
+        } */
+
+
+        .prev,
+        .next {
+            cursor: pointer;
+            position: absolute;
+            top: 60%;
+            width: auto;
+            margin-top: -22px;
+            padding: 16px;
+            color: rgb(243, 1, 1);
+            font-weight: bold;
+            font-size: 28px;
+            transition: 0.6s ease;
+            border-radius: 0 3px 3px 0;
+            user-select: none;
+        }
+
+        /* Position the "next button" to the right */
+        .next {
+            position: absolute;
+            right: -2vw;
+            border-radius: 3px 0 0 3px;
+        }
+
+        .prev {
+            position: absolute;
+            left: -2vw;
+            border-radius: 3px 0 0 3px;
+        }
+
+        .prev:hover,
+        .next:hover {
+            background-color: rgba(0, 0, 0, 0.8);
+        }
+
+        .dot {
+            cursor: pointer;
+            height: 15px;
+            width: 15px;
+            margin: 0 2px;
+            background-color: #bbb;
+            border-radius: 50%;
+            display: inline-block;
+            transition: background-color 0.6s ease;
+        }
+
+        .active,
+        .dot:hover {
+            background-color: #f50000;
+        }
+
+        .navbar-collapse.collapse.show{
+            background-color:#a1a1a1;
+            margin-top: 5px;
+        }
+
+        @media only screen and (max-width: 768px)
+        {
+            .imgsite{
+                width: 150px;
+            }
+        }
+
+        @media only screen and (min-width: 768px) and (max-width: 1009px) 
+        {
+            .imgsite{
+                width: 12vw;
+            }
+        }
+
+        @media only screen and (min-width: 1009px) 
+        {
+            .imgsite{
+                width: 14vw;
+            }
+        }
+
+
+        .slideshow-container {
+            position: relative;
+            max-width: 1000px;
+            margin: auto;
+            overflow: hidden; /* Hide overflow to prevent horizontal scrolling */
+            cursor: grab;
+        }
+
+        .mySlides {
+            display: flex;
+            flex-wrap: nowrap;
+            transition: transform 0.3s ease-in-out; /* Smoothly transition slides */
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+

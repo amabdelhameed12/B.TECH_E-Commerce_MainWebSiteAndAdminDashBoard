@@ -1,0 +1,60 @@
+﻿@model List<Product>
+@{
+    ViewData["Title"] = "GetProdByCatId";
+    Layout = "_Layout";
+}
+<div id="res" class="row" style="margin-left:100px">
+    @foreach (var item in Model)
+    {
+        
+        <div id="Card" class="card col-sm-4 mb-4" style="width: 18rem;margin:20px">
+            <a href="/Product/Index?id=@item.ID">
+            <img src="@item.ImageUrl" class="card-img-top" alt="..." >
+            </a>
+            <div class="card-body">
+                <h5>@item.Name</h5>
+                <h5 class="card-text">@item.Price</h5>
+
+                <input type="button" onclick="addinfo(@item.ID)" 
+                value="Add To Cart " class="btn btn-primary" name="Add To Cart">
+
+          
+            </div>
+        </div>
+    }
+</div>
+
+@*@section Scripts {
+    <script>
+         var cart = []; 
+         function addinfo(id) 
+         { cart.push(id);
+             console.log(cart)
+            var da = JSON.stringify({ productIds: cart })
+            console.log(da)
+            $.ajax({
+                type: "POST", url: "/Cart/AddToCart",
+                data: da,
+                contentType: "application / json; charset = utf - 8", 
+            success: function (data) { console.log(data); },
+            error: function (error) { console.log(error); } }); } 
+
+    </script>
+}
+*@
+
+
+@*@section Scripts {
+    <script>
+        let arr = []
+        function addinfo(id) {
+            arr.push(id)
+            localStorage.setItem('userCart', JSON.stringify(arr))
+            let items = JSON.parse(localStorage.getItem('userCart'))
+            console.log(items)
+            document.getElementById('cart').textContent = items.length
+
+        }
+        document.getElementById("a").addEventListener("click", addinfo())
+    </script>
+}*@

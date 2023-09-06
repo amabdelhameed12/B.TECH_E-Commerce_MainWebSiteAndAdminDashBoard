@@ -1,0 +1,61 @@
+{
+  "Admin": [
+    {
+      "id": 2,
+      "username": "youstina",
+      "password": "1234"
+    }
+  ],
+  "products": [
+    {
+      "name": "yous",
+      "category": "1",
+      "quantity": 6,
+      "image": "http://2.bp.blogspot.com/-xBXbxRBjsyI/UxXnr3rLfpI/AAAAAAAA5ZQ/s96UyVxWmRw/s1600/LCD-Television-set.jpg",
+      "price": 1000,
+      "id": 1
+    }
+  ],
+  "Category": [
+    {
+      "id": 1,
+      "name": "tv"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "FirstName": "youstina",
+      "LastName": "sadek",
+      "Email": "youstina@gmail.com",
+      "Address": "alex",
+      "PhoneNumber": "01156051714"
+    },
+    {
+      "id": 2,
+      "FirstName": "maria",
+      "LastName": "sadek",
+      "Email": "maria@gmail.com",
+      "Address": "alex",
+      "PhoneNumber": "01256051714"
+    }
+  ],
+  "orders": [
+    {
+      "OrderNumber": 1,
+      "OrderDate": "2023-07-25T10:30:00Z",
+      "Total": 100.5,
+      "CustomerId": 1,
+      "PaymentMethodId": 1,
+      "PaymentMethod": "Credit Card"
+    },
+    {
+      "OrderNumber": 2,
+      "OrderDate": "2023-07-25T10:30:00Z",
+      "Total": 100.5,
+      "CustomerId": 4,
+      "PaymentMethodId": 4,
+      "PaymentMethod": "Credit Card"
+    }
+  ]
+}

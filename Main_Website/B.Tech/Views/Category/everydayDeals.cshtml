@@ -1,0 +1,38 @@
+﻿@model List<List<Product>>
+@{
+    ViewData["Title"] = "everydayDeals";
+    Layout = "_Layout";
+}
+
+<div id="res" class="row" style="margin-left:100px">
+    @foreach (var item in Model)
+    {
+        
+        @foreach (var prd in item)
+        {
+
+            <div id="Card" class="card col-sm-4 mb-4" style="width: 18rem;margin:20px">
+                <a href="/Product/Index?id=@prd.ID">
+                    <img src="@prd.ImageUrl" class="card-img-top" alt="...">
+                </a>
+                <div class="card-body">
+                    <h5>@prd.Name</h5>
+                    <div class="price">
+                        <del>@prd.Price</del>  <h5 class="card-text">@((1 - prd.Discount) * prd.Price) </h5>
+                    </div>
+                   
+             
+                    <input type="button" onclick="addinfo(@prd.ID)"
+                           value="Add To Cart " class="btn btn-primary" name="Add To Cart">
+
+
+                </div>
+            </div>
+        }
+    }
+</div>
+
+
+
+
+

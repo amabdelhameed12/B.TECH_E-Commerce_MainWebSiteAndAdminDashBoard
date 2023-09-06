@@ -1,0 +1,35 @@
+<div class="d-flex justify-content-start ">
+    <a routerLink="/Products" routerLinkActive="router-link-active" class="btn text-white fw-bold mt-2 ms-5" style="background-color: rgb(12, 11, 12); "><i class="fa-solid fa-arrow-left"></i></a>
+</div>
+<div class="container-fluid card  col-9 mt-5 mb-5 shadow-lg" style="height:auto rounded ">
+
+    <div class="row mb-4">
+        <div class="col-sm-6">
+
+            <img [src]="product?.imageUrl" class="img-fluid" style="margin-top: 5%;">
+
+
+        </div>
+
+
+        <div class="container-fluid card  col-sm-5 mt-5 mb-5 shadow-lg" style="height:auto rounded ">
+
+            <h3>Proudct Name: {{product?.name}}</h3>
+            <h3>Proudct Price: {{product?.price|currency}}</h3>
+            <h3>Proudct Quntity: {{product?.quantity}}</h3>
+            <h3>Proudct Description: {{product?.description}}</h3>
+            <h3>Proudct Discount: {{product?.discount}}</h3>
+
+
+            <h3 style="color: rgb(252, 183, 120);">
+                <ng-container [ngSwitch]="product?.quantity">
+                    <ng-container *ngSwitchCase="0">Out Of Stock</ng-container>
+                    <ng-container *ngSwitchCase="1">Only one Left!</ng-container>
+                    <ng-container *ngSwitchCase="2">Only 2 Left!</ng-container>
+                    <ng-container *ngSwitchCase="3">Only 3 Left!</ng-container>
+                    <ng-container *ngSwitchDefault>In Stock</ng-container>
+                </ng-container>
+            </h3>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,19 @@
+﻿@model List<Product>
+
+<div class="row" style="margin-left:100px">
+    @foreach (var item in Model)
+    {
+        <div id="Card" class="card col-sm-4 mb-4" style="width: 18rem;margin:20px">
+            <a href="/Product/Index?id=@item.ID">
+                <img src="@item.ImageUrl" class="card-img-top" alt="...">
+            </a>
+            <div class="card-body">
+                <h5>@item.Name</h5>
+                <h5 class="card-text">@item.Price</h5>
+                <input type="button" onclick="addinfo(@item.ID)"
+                       value="Add To Cart " class="btn btn-primary" name="Add To Cart">
+
+            </div>
+        </div>
+    }
+</div>

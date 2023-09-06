@@ -1,0 +1,111 @@
+<!-- <div class="d-flex justify-content-start ">
+    <a routerLink="/Products" routerLinkActive="router-link-active" class="btn text-white fw-bold mt-2 ms-5" style="background-color: rgb(12, 11, 12); "><i class="fa-solid fa-arrow-left"></i></a>
+</div>
+<div class="container-fluid card  col-8 mt-2 mb-5 rounded shadow-lg">
+
+    <div class="container">
+        <h1>Edit Product</h1>
+
+        <form (ngSubmit)="saveProduct()">
+            <div class="mb-3">
+                <label for="name" class="form-label">Name</label>
+                <input type="text" class="form-control" id="name" [(ngModel)]="product.name" name="name" required>
+            </div>
+
+            <div class="mb-3">
+                <label for="description" class="form-label">Description</label>
+                <textarea class="form-control" id="description" [(ngModel)]="product.description" name="description" required></textarea>
+            </div>
+
+            <div class="mb-3">
+                <label for="price" class="form-label">Price</label>
+                <input type="number" class="form-control" id="price" [(ngModel)]="product.price" name="price" required>
+            </div>
+
+            <div class="mb-3">
+                <label for="quantity" class="form-label">Quantity</label>
+                <input type="number" class="form-control" id="quantity" [(ngModel)]="product.quantity" name="quantity" required>
+            </div>
+
+
+            <div class="mb-3 ">
+                <label for="imageUrl" class="form-label">Choose img</label>
+                <input class="form-control" type="file" id="imageUrl" [(ngModel)]="product.imageUrl" required name="imageUrl">
+            </div>
+            <div class="mb-3 ">
+                <label for="imageUrl" class="form-label">Choose img</label>
+                <img class="ms-5 img-fluid p-1" [src]="product.imageUrl" width="80px" alt="">
+                <input class="form-control" type="file" id="imageUrl" (change)="onFileSelected($event)"  required name="imageUrl">
+            </div>
+
+
+            <div class="mb-3">
+                <label for="discount" class="form-label">Discount</label>
+                <input type="number" class="form-control" id="discount" [(ngModel)]="product.discount" name="discount" required>
+            </div>
+            <div class="form-group">
+                <label for="categoryId">Category:</label>
+                <select  class="form-control" [(ngModel)]="product.categoryId" name='categoryId'>
+                  <option *ngFor="let category of categories" [value]="category.id">{{ category.name }}</option>
+                </select>
+            </div>
+            <br>
+            <button type="submit" class="btn btn-primary bg-black">Save Changes</button>
+        </form>
+    </div> -->
+
+
+    <!-- ///////////////////////////////////////////////-->
+
+
+    <div class="d-flex justify-content-start ">
+        <a routerLink="/Products" routerLinkActive="router-link-active" class="btn text-white fw-bold mt-2 ms-5" style="background-color: rgb(12, 11, 12); "><i class="fa-solid fa-arrow-left"></i></a>
+    </div>
+    <div class="container-fluid card  col-8 mt-2 mb-5 rounded shadow-lg">
+    
+        <div class="container">
+            <h1>Edit Product</h1>
+    
+            <form (ngSubmit)="onSubmit()">
+                <div class="mb-3">
+                    <label for="name" class="form-label">Name</label>
+                    <input type="text" class="form-control" id="name" [(ngModel)]="product.name" name="name" required>
+                </div>
+    
+                <div class="mb-3">
+                    <label for="description" class="form-label">Description</label>
+                    <textarea class="form-control" id="description" [(ngModel)]="product.description" name="description" required></textarea>
+                </div>
+    
+                <div class="mb-3">
+                    <label for="price" class="form-label">Price</label>
+                    <input type="number" class="form-control" id="price" [(ngModel)]="product.price" name="price" required>
+                </div>
+    
+                <div class="mb-3">
+                    <label for="quantity" class="form-label">Quantity</label>
+                    <input type="number" class="form-control" id="quantity" [(ngModel)]="product.quantity" name="quantity" required>
+                </div>
+
+                
+                <div class="mb-3 ">
+                    <label for="imageUrl" class="form-label">Choose img</label>
+                    <img class="ms-5 img-fluid p-1" [src]="product.imageUrl" width="80px" alt="">
+                    <input class="form-control" type="file" id="imageUrl" (change)="onFileSelected($event)"  required name="imageUrl">
+                </div>
+    
+    
+                <div class="mb-3">
+                    <label for="discount" class="form-label">Discount</label>
+                    <input type="number" class="form-control" id="discount" [(ngModel)]="product.discount" name="discount" required>
+                </div>
+                <div class="form-group">
+                    <label for="categoryId">Category:</label>
+                    <select  class="form-control" [(ngModel)]="product.categoryId" name='categoryId'>
+                      <option *ngFor="let category of categories" [value]="category.id">{{ category.name }}</option>
+                    </select>
+                </div>
+                <br>
+                <button type="submit" class="btn btn-primary bg-black">Save Changes</button>
+            </form>
+        </div>

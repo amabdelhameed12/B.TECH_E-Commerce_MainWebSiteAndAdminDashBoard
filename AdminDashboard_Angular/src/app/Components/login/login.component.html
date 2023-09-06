@@ -1,0 +1,16 @@
+
+
+
+<img src="../../../assets/btech.jpg" class="rounded mx-auto d-block mt-5" alt="">
+<form (ngSubmit)="onSubmit()">
+    <div class="row">
+        <label for="username">User Name</label>
+        <input type="text" name="username" autocomplete="off" placeholder="Username" [(ngModel)]="username">
+    </div>
+    <div class="row">
+        <label for="password">Password</label>
+        <input type="password" name="password" placeholder="Password" [(ngModel)]="password">
+    </div>
+    <button type="submit">Login</button>
+    <p *ngIf="error" class="text-danger mt-2">{{ error }}</p>
+</form>

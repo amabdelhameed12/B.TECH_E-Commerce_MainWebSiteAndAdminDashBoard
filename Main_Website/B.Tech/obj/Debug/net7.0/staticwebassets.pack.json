@@ -1,0 +1,413 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\.NET\\Final Project\\New folder\\B.Tech\\B.Tech\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\B.Tech.bundle.scp.css",
+      "PackagePath": "staticwebassets\\B.Tech.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\.NET\\Final Project\\New folder\\B.Tech\\B.Tech\\wwwroot\\Images\\Aeight.webp",
+      "PackagePath": "staticwebassets\\Images\\Aeight.webp"
+    },
+    {
+      "Id": "D:\\.NET\\Final Project\\New folder\\B.Tech\\B.Tech\\wwwroot\\Images\\Afour.webp",
+      "PackagePath": "staticwebassets\\Images\\Afour.webp"
+    },
+    {
+      "Id": "D:\\.NET\\Final Project\\New folder\\B.Tech\\B.Tech\\wwwroot\\Images\\Aone.webp",
+      "PackagePath": "staticwebassets\\Images\\Aone.webp"
+    },
+    {
+      "Id": "D:\\.NET\\Final Project\\New folder\\B.Tech\\B.Tech\\wwwroot\\Images\\Aseven.webp",
+      "PackagePath": "staticwebassets\\Images\\Aseven.webp"
+    },
+    {
+      "Id": "D:\\.NET\\Final Project\\New folder\\B.Tech\\B.Tech\\wwwroot\\Images\\Asix.webp",
+      "PackagePath": "staticwebassets\\Images\\Asix.webp"
+    },
+    {
+      "Id": "D:\\.NET\\Final Project\\New folder\\B.Tech\\B.Tech\\wwwroot\\Images\\Athird.webp",
+      "PackagePath": "staticwebassets\\Images\\Athird.webp"
+    },
+    {
+      "Id": "D:\\.NET\\Final Project\\New folder\\B.Tech\\B.Tech\\wwwroot\\Images\\Atwo.webp",
+      "PackagePath": "staticwebassets\\Images\\Atwo.webp"
+    },
+    {
+      "Id": "D:\\.NET\\Final Project\\New folder\\B.Tech\\B.Tech\\wwwroot\\Images\\B.tech.png",
+      "PackagePath": "staticwebassets\\Images\\B.tech.png"
+    },
+    {
+      "Id": "D:\\.NET\\Final Project\\New folder\\B.Tech\\B.Tech\\wwwroot\\Images\\Beauty_Fitness.webp",
+      "PackagePath": "staticwebassets\\Images\\Beauty_Fitness.webp"
+    },
+    {
+      "Id": "D:\\.NET\\Final Project\\New folder\\B.Tech\\B.Tech\\wwwroot\\Images\\Laptops_PCs.webp",
+      "PackagePath": "staticwebassets\\Images\\Laptops_PCs.webp"
+    },
+    {
+      "Id": "D:\\.NET\\Final Project\\New folder\\B.Tech\\B.Tech\\wwwroot\\Images\\Large_home_appliance.webp",
+      "PackagePath": "staticwebassets\\Images\\Large_home_appliance.webp"
+    },
+    {
+      "Id": "D:\\.NET\\Final Project\\New folder\\B.Tech\\B.Tech\\wwwroot\\Images\\LoginImage.png",
+      "PackagePath": "staticwebassets\\Images\\LoginImage.png"
+    },
+    {
+      "Id": "D:\\.NET\\Final Project\\New folder\\B.Tech\\B.Tech\\wwwroot\\Images\\Mobiles_and_tablets.webp",
+      "PackagePath": "staticwebassets\\Images\\Mobiles_and_tablets.webp"
+    },
+    {
+      "Id": "D:\\.NET\\Final Project\\New folder\\B.Tech\\B.Tech\\wwwroot\\Images\\ONE.webp",
+      "PackagePath": "staticwebassets\\Images\\ONE.webp"
+    },
+    {
+      "Id": "D:\\.NET\\Final Project\\New folder\\B.Tech\\B.Tech\\wwwroot\\Images\\TV_Entertainment.webp",
+      "PackagePath": "staticwebassets\\Images\\TV_Entertainment.webp"
+    },
+    {
+      "Id": "D:\\.NET\\Final Project\\New folder\\B.Tech\\B.Tech\\wwwroot\\Images\\afive.webp",
+      "PackagePath": "staticwebassets\\Images\\afive.webp"
+    },
+    {
+      "Id": "D:\\.NET\\Final Project\\New folder\\B.Tech\\B.Tech\\wwwroot\\Images\\eight.webp",
+      "PackagePath": "staticwebassets\\Images\\eight.webp"
+    },
+    {
+      "Id": "D:\\.NET\\Final Project\\New folder\\B.Tech\\B.Tech\\wwwroot\\Images\\electronics.webp",
+      "PackagePath": "staticwebassets\\Images\\electronics.webp"
+    },
+    {
+      "Id": "D:\\.NET\\Final Project\\New folder\\B.Tech\\B.Tech\\wwwroot\\Images\\ezgif-1-3533adc29e (1).webp",
+      "PackagePath": "staticwebassets\\Images\\ezgif-1-3533adc29e (1).webp"
+    },
+    {
+      "Id": "D:\\.NET\\Final Project\\New folder\\B.Tech\\B.Tech\\wwwroot\\Images\\ezgif-1-3533adc29e.webp",
+      "PackagePath": "staticwebassets\\Images\\ezgif-1-3533adc29e.webp"
+    },
+    {
+      "Id": "D:\\.NET\\Final Project\\New folder\\B.Tech\\B.Tech\\wwwroot\\Images\\facebook.png",
+      "PackagePath": "staticwebassets\\Images\\facebook.png"
+    },
+    {
+      "Id": "D:\\.NET\\Final Project\\New folder\\B.Tech\\B.Tech\\wwwroot\\Images\\favicon.jpeg",
+      "PackagePath": "staticwebassets\\Images\\favicon.jpeg"
+    },
+    {
+      "Id": "D:\\.NET\\Final Project\\New folder\\B.Tech\\B.Tech\\wwwroot\\Images\\five.webp",
+      "PackagePath": "staticwebassets\\Images\\five.webp"
+    },
+    {
+      "Id": "D:\\.NET\\Final Project\\New folder\\B.Tech\\B.Tech\\wwwroot\\Images\\four.webp",
+      "PackagePath": "staticwebassets\\Images\\four.webp"
+    },
+    {
+      "Id": "D:\\.NET\\Final Project\\New folder\\B.Tech\\B.Tech\\wwwroot\\Images\\gaming_1.webp",
+      "PackagePath": "staticwebassets\\Images\\gaming_1.webp"
+    },
+    {
+      "Id": "D:\\.NET\\Final Project\\New folder\\B.Tech\\B.Tech\\wwwroot\\Images\\google play download.webp",
+      "PackagePath": "staticwebassets\\Images\\google play download.webp"
+    },
+    {
+      "Id": "D:\\.NET\\Final Project\\New folder\\B.Tech\\B.Tech\\wwwroot\\Images\\huawei download.webp",
+      "PackagePath": "staticwebassets\\Images\\huawei download.webp"
+    },
+    {
+      "Id": "D:\\.NET\\Final Project\\New folder\\B.Tech\\B.Tech\\wwwroot\\Images\\insta.webp",
+      "PackagePath": "staticwebassets\\Images\\insta.webp"
+    },
+    {
+      "Id": "D:\\.NET\\Final Project\\New folder\\B.Tech\\B.Tech\\wwwroot\\Images\\ios download.webp",
+      "PackagePath": "staticwebassets\\Images\\ios download.webp"
+    },
+    {
+      "Id": "D:\\.NET\\Final Project\\New folder\\B.Tech\\B.Tech\\wwwroot\\Images\\second.webp",
+      "PackagePath": "staticwebassets\\Images\\second.webp"
+    },
+    {
+      "Id": "D:\\.NET\\Final Project\\New folder\\B.Tech\\B.Tech\\wwwroot\\Images\\seven.webp",
+      "PackagePath": "staticwebassets\\Images\\seven.webp"
+    },
+    {
+      "Id": "D:\\.NET\\Final Project\\New folder\\B.Tech\\B.Tech\\wwwroot\\Images\\six.webp",
+      "PackagePath": "staticwebassets\\Images\\six.webp"
+    },
+    {
+      "Id": "D:\\.NET\\Final Project\\New folder\\B.Tech\\B.Tech\\wwwroot\\Images\\small_hope_appliances.webp",
+      "PackagePath": "staticwebassets\\Images\\small_hope_appliances.webp"
+    },
+    {
+      "Id": "D:\\.NET\\Final Project\\New folder\\B.Tech\\B.Tech\\wwwroot\\Images\\third.webp",
+      "PackagePath": "staticwebassets\\Images\\third.webp"
+    },
+    {
+      "Id": "D:\\.NET\\Final Project\\New folder\\B.Tech\\B.Tech\\wwwroot\\Images\\you.webp",
+      "PackagePath": "staticwebassets\\Images\\you.webp"
+    },
+    {
+      "Id": "D:\\.NET\\Final Project\\New folder\\B.Tech\\B.Tech\\wwwroot\\css\\LayCss.css",
+      "PackagePath": "staticwebassets\\css\\LayCss.css"
+    },
+    {
+      "Id": "D:\\.NET\\Final Project\\New folder\\B.Tech\\B.Tech\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\.NET\\Final Project\\New folder\\B.Tech\\B.Tech\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\.NET\\Final Project\\New folder\\B.Tech\\B.Tech\\wwwroot\\js\\LayJs.js",
+      "PackagePath": "staticwebassets\\js\\LayJs.js"
+    },
+    {
+      "Id": "D:\\.NET\\Final Project\\New folder\\B.Tech\\B.Tech\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\.NET\\Final Project\\New folder\\B.Tech\\B.Tech\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\.NET\\Final Project\\New folder\\B.Tech\\B.Tech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\.NET\\Final Project\\New folder\\B.Tech\\B.Tech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\.NET\\Final Project\\New folder\\B.Tech\\B.Tech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\.NET\\Final Project\\New folder\\B.Tech\\B.Tech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\.NET\\Final Project\\New folder\\B.Tech\\B.Tech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\.NET\\Final Project\\New folder\\B.Tech\\B.Tech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\.NET\\Final Project\\New folder\\B.Tech\\B.Tech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\.NET\\Final Project\\New folder\\B.Tech\\B.Tech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\.NET\\Final Project\\New folder\\B.Tech\\B.Tech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\.NET\\Final Project\\New folder\\B.Tech\\B.Tech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\.NET\\Final Project\\New folder\\B.Tech\\B.Tech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\.NET\\Final Project\\New folder\\B.Tech\\B.Tech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\.NET\\Final Project\\New folder\\B.Tech\\B.Tech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\.NET\\Final Project\\New folder\\B.Tech\\B.Tech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\.NET\\Final Project\\New folder\\B.Tech\\B.Tech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\.NET\\Final Project\\New folder\\B.Tech\\B.Tech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\.NET\\Final Project\\New folder\\B.Tech\\B.Tech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\.NET\\Final Project\\New folder\\B.Tech\\B.Tech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\.NET\\Final Project\\New folder\\B.Tech\\B.Tech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\.NET\\Final Project\\New folder\\B.Tech\\B.Tech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\.NET\\Final Project\\New folder\\B.Tech\\B.Tech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\.NET\\Final Project\\New folder\\B.Tech\\B.Tech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\.NET\\Final Project\\New folder\\B.Tech\\B.Tech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\.NET\\Final Project\\New folder\\B.Tech\\B.Tech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\.NET\\Final Project\\New folder\\B.Tech\\B.Tech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\.NET\\Final Project\\New folder\\B.Tech\\B.Tech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\.NET\\Final Project\\New folder\\B.Tech\\B.Tech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\.NET\\Final Project\\New folder\\B.Tech\\B.Tech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\.NET\\Final Project\\New folder\\B.Tech\\B.Tech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\.NET\\Final Project\\New folder\\B.Tech\\B.Tech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\.NET\\Final Project\\New folder\\B.Tech\\B.Tech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\.NET\\Final Project\\New folder\\B.Tech\\B.Tech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\.NET\\Final Project\\New folder\\B.Tech\\B.Tech\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\.NET\\Final Project\\New folder\\B.Tech\\B.Tech\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\.NET\\Final Project\\New folder\\B.Tech\\B.Tech\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\.NET\\Final Project\\New folder\\B.Tech\\B.Tech\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\.NET\\Final Project\\New folder\\B.Tech\\B.Tech\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\.NET\\Final Project\\New folder\\B.Tech\\B.Tech\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\.NET\\Final Project\\New folder\\B.Tech\\B.Tech\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\.NET\\Final Project\\New folder\\B.Tech\\B.Tech\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\.NET\\Final Project\\New folder\\B.Tech\\B.Tech\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\.NET\\Final Project\\New folder\\B.Tech\\B.Tech\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\.NET\\Final Project\\New folder\\B.Tech\\B.Tech\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\.NET\\Final Project\\New folder\\B.Tech\\B.Tech\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\.NET\\Final Project\\New folder\\B.Tech\\B.Tech\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\.NET\\Final Project\\New folder\\B.Tech\\B.Tech\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\.NET\\Final Project\\New folder\\B.Tech\\B.Tech\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\.NET\\Final Project\\New folder\\B.Tech\\B.Tech\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\.NET\\Final Project\\New folder\\B.Tech\\B.Tech\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\.NET\\Final Project\\New folder\\B.Tech\\B.Tech\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\.NET\\Final Project\\New folder\\B.Tech\\B.Tech\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\.NET\\Final Project\\New folder\\B.Tech\\B.Tech\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\.NET\\Final Project\\New folder\\B.Tech\\B.Tech\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\.NET\\Final Project\\New folder\\B.Tech\\B.Tech\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\.NET\\Final Project\\New folder\\B.Tech\\B.Tech\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\.NET\\Final Project\\New folder\\B.Tech\\B.Tech\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.B.Tech.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.B.Tech.props",
+      "PackagePath": "build\\B.Tech.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.B.Tech.props",
+      "PackagePath": "buildMultiTargeting\\B.Tech.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.B.Tech.props",
+      "PackagePath": "buildTransitive\\B.Tech.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

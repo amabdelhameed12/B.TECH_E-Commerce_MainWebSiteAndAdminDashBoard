@@ -1,0 +1,22 @@
+﻿@model Customer
+
+<div class="container-fluid">
+    <form method="post">
+
+        <div>
+            <label asp-for="Email" data-lng="Email"></label>
+            <input class="form-control" asp-for="Email" />
+        </div>
+        <div>
+            <label asp-for="Password" data-lng="Password"></label>
+            <input class="form-control" asp-for="Password" />
+        </div>
+        <br />
+        <input type="submit" asp-action="Login" asp-controller="Account"
+               value="Login" as class="btn btn-primary"  />
+
+        <a asp-action="NewUser" asp-controller="Account" class="btn btn-primary " data-lng="NewUser"> </a>
+    </form>
+
+
+</div>

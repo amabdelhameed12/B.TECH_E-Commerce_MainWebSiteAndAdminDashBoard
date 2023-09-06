@@ -1,0 +1,21 @@
+
+
+<div class="d-flex justify-content-start ">
+    <a routerLink="/order" routerLinkActive="router-link-active" class="btn text-white fw-bold mt-2 ms-5" style="background-color: rgb(12, 11, 12); "><i class="fa-solid fa-arrow-left"></i></a>
+</div>
+<div class="container-fluid card col-11 m-5 rounded shadow-lg mt-50">
+    <h4>Edit Order Status</h4>
+
+    <form>
+        <div class="mb-3">
+            <label for="status" class="form-label">Status</label>
+            <select class="form-select" id="status" [(ngModel)]="order.status" name="status">
+                <option value="Shipped">Shipped</option>
+                <option value="Delivered">Delivered</option>
+                <option value="Pending">Pending</option>
+                <option value="Cancelled">Cancelled</option>
+            </select>
+        </div>
+        <button type="submit" class="btn btn-primary" (click)="saveChanges()">Save</button>
+    </form>
+</div>

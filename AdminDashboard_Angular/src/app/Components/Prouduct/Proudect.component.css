@@ -1,0 +1,7 @@
+td {
+    border-right: 1px solid #ddd;
+}
+
+td:last-child {
+    border-right: none;
+}

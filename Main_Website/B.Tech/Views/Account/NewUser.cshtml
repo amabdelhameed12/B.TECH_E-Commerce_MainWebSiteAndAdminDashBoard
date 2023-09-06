@@ -1,0 +1,56 @@
+﻿@using B.Tech.ViewModel;
+@model CustomerCreateViewModel
+
+<div class="container-fluid">
+    <h1 data-lng="NewUser"></h1>
+    <form method="post">
+
+        <div>
+            <label asp-for="FirstName" data-lng="FirstName"></label>
+            <input class="form-control" asp-for="FirstName" />
+            <span asp-validation-for="FirstName" class="text-danger"></span>
+        </div>
+        <div>
+            <label asp-for="LastName" data-lng="LastName"></label>
+            <input class="form-control" asp-for="LastName" />
+            <span asp-validation-for="LastName" class="text-danger"></span>
+
+        </div>
+        <div>
+            <label asp-for="Email" data-lng="Email"></label>
+            <input class="form-control" asp-for="Email" />
+            <span asp-validation-for="Email" class="text-danger"></span>
+
+        </div>
+        <div>
+            <label asp-for="Address" data-lng="Address"></label>
+            <input class="form-control" asp-for="Address" />
+            <span asp-validation-for="Address" class="text-danger"></span>
+
+        </div>
+
+
+        <div>
+            <label asp-for="PhoneNumber" data-lng="PhoneNumber"></label>
+            <input class="form-control" asp-for="PhoneNumber" />
+            <span asp-validation-for="PhoneNumber" class="text-danger"></span>
+        </div>
+        <div>
+            <label asp-for="Password" data-lng="Password"></label>
+            <input class="form-control" asp-for="Password" />
+            <span asp-validation-for="Password" class="text-danger"></span>
+        </div>
+
+        <br />
+        <input type="submit" value ="Register" class="btn btn-primary" />
+    </form>
+</div>
+@section Scripts{
+    <script src="/lib/jquery/dist/jquery.min.js"></script>
+    <script src="/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+}
+
+
+
+

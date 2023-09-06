@@ -1,0 +1,85 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\.NET\\Project\\AdmindashboardAPI\\Admindashpord\\wwwroot\\uploads\\3ir8fgaw.png",
+      "PackagePath": "staticwebassets\\uploads\\3ir8fgaw.png"
+    },
+    {
+      "Id": "D:\\.NET\\Project\\AdmindashboardAPI\\Admindashpord\\wwwroot\\uploads\\Capture1.PNG",
+      "PackagePath": "staticwebassets\\uploads\\Capture1.PNG"
+    },
+    {
+      "Id": "D:\\.NET\\Project\\AdmindashboardAPI\\Admindashpord\\wwwroot\\uploads\\Pacifico-Regular.ttf",
+      "PackagePath": "staticwebassets\\uploads\\Pacifico-Regular.ttf"
+    },
+    {
+      "Id": "D:\\.NET\\Project\\AdmindashboardAPI\\Admindashpord\\wwwroot\\uploads\\afwa.png",
+      "PackagePath": "staticwebassets\\uploads\\afwa.png"
+    },
+    {
+      "Id": "D:\\.NET\\Project\\AdmindashboardAPI\\Admindashpord\\wwwroot\\uploads\\cv32maka.png",
+      "PackagePath": "staticwebassets\\uploads\\cv32maka.png"
+    },
+    {
+      "Id": "D:\\.NET\\Project\\AdmindashboardAPI\\Admindashpord\\wwwroot\\uploads\\flu1760w.png",
+      "PackagePath": "staticwebassets\\uploads\\flu1760w.png"
+    },
+    {
+      "Id": "D:\\.NET\\Project\\AdmindashboardAPI\\Admindashpord\\wwwroot\\uploads\\fresh_air_cooler_60_liters_dark_grey_and_orange_-_fa-m60_1_.avif",
+      "PackagePath": "staticwebassets\\uploads\\fresh_air_cooler_60_liters_dark_grey_and_orange_-_fa-m60_1_.avif"
+    },
+    {
+      "Id": "D:\\.NET\\Project\\AdmindashboardAPI\\Admindashpord\\wwwroot\\uploads\\g6cb6e86.png",
+      "PackagePath": "staticwebassets\\uploads\\g6cb6e86.png"
+    },
+    {
+      "Id": "D:\\.NET\\Project\\AdmindashboardAPI\\Admindashpord\\wwwroot\\uploads\\jgsbj3tf.png",
+      "PackagePath": "staticwebassets\\uploads\\jgsbj3tf.png"
+    },
+    {
+      "Id": "D:\\.NET\\Project\\AdmindashboardAPI\\Admindashpord\\wwwroot\\uploads\\m39k0l8h.png",
+      "PackagePath": "staticwebassets\\uploads\\m39k0l8h.png"
+    },
+    {
+      "Id": "D:\\.NET\\Project\\AdmindashboardAPI\\Admindashpord\\wwwroot\\uploads\\ovfz7ogv.png",
+      "PackagePath": "staticwebassets\\uploads\\ovfz7ogv.png"
+    },
+    {
+      "Id": "D:\\.NET\\Project\\AdmindashboardAPI\\Admindashpord\\wwwroot\\uploads\\ryhgxlvb.png",
+      "PackagePath": "staticwebassets\\uploads\\ryhgxlvb.png"
+    },
+    {
+      "Id": "D:\\.NET\\Project\\AdmindashboardAPI\\Admindashpord\\wwwroot\\uploads\\sad.png",
+      "PackagePath": "staticwebassets\\uploads\\sad.png"
+    },
+    {
+      "Id": "D:\\.NET\\Project\\AdmindashboardAPI\\Admindashpord\\wwwroot\\uploads\\smiley.png",
+      "PackagePath": "staticwebassets\\uploads\\smiley.png"
+    },
+    {
+      "Id": "D:\\.NET\\Project\\AdmindashboardAPI\\Admindashpord\\wwwroot\\uploads\\tefal_silence_force_stand_fan_with_remote_control_16_inch_black_-_vg4130ee_2_.avif",
+      "PackagePath": "staticwebassets\\uploads\\tefal_silence_force_stand_fan_with_remote_control_16_inch_black_-_vg4130ee_2_.avif"
+    },
+    {
+      "Id": "D:\\.NET\\Project\\AdmindashboardAPI\\Admindashpord\\wwwroot\\uploads\\tre.jpeg",
+      "PackagePath": "staticwebassets\\uploads\\tre.jpeg"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.Admindashpord.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.Admindashpord.props",
+      "PackagePath": "build\\Admindashpord.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.Admindashpord.props",
+      "PackagePath": "buildMultiTargeting\\Admindashpord.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.Admindashpord.props",
+      "PackagePath": "buildTransitive\\Admindashpord.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

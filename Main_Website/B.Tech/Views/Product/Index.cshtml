@@ -1,0 +1,35 @@
+﻿@model Product
+
+@{
+    ViewData["Title"] = "Index";
+
+}
+
+
+<div id="Card" style="display:flex" class="card  col-sm-4 m-4" style="width: 30rem;">
+    <img src="@Model.ImageUrl" class="card-img-top" alt="...">
+    <div class="card-body">
+        <h5> Name : @Model.Name</h5>
+        <h5 class="card-text">Price :  @Model.Price</h5>
+        <h5 class="card-text"> Quantity : @Model.Quantity</h5>
+        <p class="card-text"><h5> Description : </h5> @Model.Description</p>
+      
+        <input type="button" onclick="addinfo(@Model.ID)"
+               value="Add To Cart " class="btn btn-primary" name="Add To Cart">
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

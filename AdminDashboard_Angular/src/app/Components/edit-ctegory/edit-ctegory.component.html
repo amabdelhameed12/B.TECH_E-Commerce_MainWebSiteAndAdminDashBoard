@@ -1,0 +1,13 @@
+<div class="d-flex justify-content-start ">
+    <a routerLink="/Categories" routerLinkActive="router-link-active" class="btn text-white fw-bold mt-2 ms-5" style="background-color: rgb(12, 11, 12); "><i class="fa-solid fa-arrow-left"></i></a>
+</div>
+<div class="container-fluid card  col-8 mt-2 mb-5 rounded shadow-lg ">
+    <h4>Edit Category</h4>
+
+    <form>
+        <div class="mb-3" *ngIf="category">
+            <label for="catName" class="form-label">Category Name</label>
+
+            <input type="text" class="form-control" [(ngModel)]="category.name" name="catName" id="catName" required>
+        </div>
+        <button type="submit" class="btn text-white fw-bold" style="background-color: rgb(12, 11, 12);" (click)="saveCategory()">Edit Category</button>

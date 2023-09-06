@@ -1,0 +1,47 @@
+﻿@model List<Product_Order>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Product Name</th>
+            <th> Image</th>
+            <th> Price</th>
+            <th>Quantity</th>
+            <th>Total Price</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var productOrder in Model)
+        {
+            <tr>
+                <td>@productOrder.Product.Name</td>
+                <td><img src="@productOrder.Product.ImageUrl" class="card-img-top" style="width:70px ; height:70px" alt="..."></td>
+                <td>
+                    @if (productOrder.Product.Discount == 0)
+                    {
+                        @productOrder.Product.Price
+                    }
+                    else
+                    {
+                        @*@(((1 - productOrder.Product.Discount) * productOrder.Product.Price) * productOrder.Product_Quantity)*@
+                        @(productOrder.Product.Price * (1 - productOrder.Product.Discount))
+                    }
+                </td>
+                <td>@productOrder.Product_Quantity</td>
+                <td>
+                    @if (productOrder.Product.Discount == 0)
+                    {
+                        @(productOrder.Product_Quantity * productOrder.Product.Price)
+                    }
+                    else
+                    {
+                        @(((1 - productOrder.Product.Discount) * productOrder.Product.Price) * productOrder.Product_Quantity)
+
+                    }
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+

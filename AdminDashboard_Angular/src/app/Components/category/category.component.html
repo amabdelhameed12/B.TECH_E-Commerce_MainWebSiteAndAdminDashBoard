@@ -1,0 +1,29 @@
+<div class="d-flex justify-content-end ">
+    <a routerLink="/addCategories" routerLinkActive="router-link-active" class="btn text-white fw-bold mt-5 me-5" style="background-color: rgb(12, 11, 12); ">Add New Category</a>
+</div>
+
+<div class="container-fluid card  col-11 m-5 rounded shadow-lg mt-2">
+    <table class="table m-2">
+        <thead class="bg-dark text-light">
+            <tr>
+                <th scope="col">Category Name</th>
+                <th scope="col">Delete</th>
+                <th scope="col">Edit</th>
+            </tr>
+            
+        </thead>
+        <tbody>
+            <tr *ngFor="let category of categoryList">
+                <td>{{ category.name }}</td>
+                
+                <td>
+                    <button type="submit" class="btn btn-success bg-black" (click)="deleteCategory(category.id)">Delete</button>
+                </td>
+                
+                <td>
+                    <button type="submit" class="btn btn-success bg-black" (click)=" editcategory(category.id)">Edit</button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    </div>

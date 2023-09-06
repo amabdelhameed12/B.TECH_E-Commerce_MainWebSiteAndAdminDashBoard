@@ -1,0 +1,15 @@
+﻿
+@model Customer
+
+
+
+<div style="display: flex; justify-content: center; align-items: flex-start; min-height: 60vh; font-family: Arial, sans-serif;">
+    <div style="background-color: #fff; padding: 20px; text-align: center;">
+        <h1 style="margin-bottom: 20px; margin-top: 0;">Welcome, @Model.FirstName @Model.LastName</h1>
+        <div style="display: flex; flex-direction: column; margin-top: 10px;">
+            <a href="/Customer/Edit?id=@Model.Id" class="btn btn-outline-primary btn-lg" style="margin: 5px;">Edit Profile</a>
+            <a href="/Customer/OrdDEtails?id=@Model.Id" class="btn btn-outline-secondary btn-lg" style="margin: 5px;">My Orders</a>
+        </div>
+    </div>
+</div>
+
